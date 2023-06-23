@@ -311,7 +311,8 @@ label input:checked ~ .dash::before{
 label input:checked ~ .dash::after{
   transform: rotate(90deg);
   top: 0;
-}
+} 
+
 .burger_bord {
   display: block;
   position: fixed;
