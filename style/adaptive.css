@@ -1,0 +1,80 @@
+@media screen and (max-width: 1000px) {
+  .header_menu { 
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header_block {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .porfoli_header {
+
+  }
+  .content {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .skills_app {
+    margin-right: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+  }
+  .app_card {
+    text-align: center;
+    margin-bottom: 81px;
+  }
+  .app_card:last-child {
+    margin-bottom: 0;
+  }
+
+   .app_rating {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  
+  .header_descr{
+    align-items: start;
+    flex-direction: column;
+  }
+  .header_menu{
+    display: none;
+  }
+  .name_descr {
+    margin-top: 23px;
+  }
+  .header_baner {
+    width: 100%;
+    height: 478px;
+    background-image:url(../img/vert.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  .app_card:nth-child(3){
+    margin-bottom: 0;
+  }
+  .descr_text {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .social{
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .burger_menu {
+    display: flex;
+    position: absolute;
+  }
+
+}
+@media screen and (max-width:391px){
+  .app_card:nth-child(3){
+    margin-bottom: 81px;
+  }
+}
+
+/* вроде всё */
