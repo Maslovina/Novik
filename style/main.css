@@ -249,7 +249,6 @@ button {
 
 .burger_menu{
   display: none;
-
   flex-direction: row-reverse;
   width: 100vw;
 
@@ -293,6 +292,7 @@ input[type=checkbox]{
 
 .dash::after{
   content: "";
+  display: block;
   position: absolute;
   display: block;
   width: 100%;
@@ -313,7 +313,8 @@ label input:checked ~ .dash::after{
   top: 0;
 }
 .burger_bord {
-  position: absolute;
+  display: block;
+  position: fixed;
   /* right: -450px;
   top: -68px; */
   transform: translate(63px, -81px);
@@ -332,6 +333,5 @@ label input:checked ~ ul{
 .bord_item {
     margin-left: 22px;
     margin-bottom: 68px;
-    
     font-weight: 700;
 }
